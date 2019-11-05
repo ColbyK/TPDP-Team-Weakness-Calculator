@@ -1,12 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8" ?> 
+<?xml version="1.0" encoding="utf-8" ?> 
 
 <Types>
   <Type name="Void" r="255" g="204" b="255">
-    <Abil name="THING">0.5</Abil>
-    <Abil name="THING1">0.5</Abil>
-    <Abil name="THING2">0.5</Abil>
-    <Abil name="THING3">0.5</Abil>
-    <Abil name="THING4">0.5</Abil>
+    <Abil name="- None -">1</Abil><!-- DEFAULT, DO NOT REMOVE -->
+    <Abil name="Affinity Twist">1</Abil><!-- Effect Hardcoded, Name Placeholder, DO NOT REMOVE -->
     <DefList>
       <Defending>1</Defending>
       <Defending>1</Defending>
@@ -28,6 +25,7 @@
     </DefList>
   </Type>
   <Type name="Fire" r="255" g="51" b="0">
+    <Abil name="Benefit of Fire">0</Abil>
     <DefList>
       <Defending>1</Defending>
       <Defending>0.5</Defending>
@@ -49,6 +47,8 @@
     </DefList>
   </Type>
   <Type name="Water" r="0" g="153" b="255">
+    <Abil name="Grace of Water">0</Abil>
+    <Abil name="Sutei's Fire" tag="Only active during Suzaku">0.5</Abil>
     <DefList>
       <Defending>1</Defending>
       <Defending>2</Defending>
@@ -70,6 +70,7 @@
     </DefList>
   </Type>
   <Type name="Nature" r="51" g="204" b="51">
+    <Abil name="Force of Nature">0</Abil>
     <DefList>
       <Defending>1</Defending>
       <Defending>0.5</Defending>
@@ -91,6 +92,7 @@
     </DefList>
   </Type>
   <Type name="Earth" r="255" g="178" b="102">
+    <Abil name="Air Cushion" tag="Ability disabled during 'Dust Storm'">0</Abil>
     <DefList>
       <Defending>1</Defending>
       <Defending>2</Defending>
@@ -112,6 +114,7 @@
     </DefList>
   </Type>
   <Type name="Steel" r="160" g="160" b="160">
+    <Abil name="Metallurgy">0</Abil>
     <DefList>
       <Defending>1</Defending>
       <Defending>0.5</Defending>
@@ -133,6 +136,7 @@
     </DefList>
   </Type>
   <Type name="Wind" r="193" g="230" b="42">
+    <Abil name="Smooth Sailing">0</Abil>
     <DefList>
       <Defending>1</Defending>
       <Defending>1</Defending>
@@ -154,6 +158,7 @@
     </DefList>
   </Type>
   <Type name="Elect" r="255" g="255" b="0">
+    <Abil name="Electromagnetic">0</Abil>
     <DefList>
       <Defending>1</Defending>
       <Defending>1</Defending>
@@ -175,6 +180,9 @@
     </DefList>
   </Type>
   <Type name="Light" r="255" g="255" b="204">
+    <Abil name="Dark Clothing" tag="x1.25 weak to light">1</Abil>
+    <Abil name="Absorbent">0</Abil>
+    <Abil name="Inverse Reaction">0.5</Abil>
     <DefList>
       <Defending>1</Defending>
       <Defending>1</Defending>
@@ -196,6 +204,9 @@
     </DefList>
   </Type>
   <Type name="Dark" r="0" g="81" b="87">
+    <Abil name="Dark Clothing">0</Abil>
+    <Abil name="Negative Aura">0</Abil>
+    <Abil name="Inverse Reaction">0.5</Abil>
     <DefList>
       <Defending>2</Defending>
       <Defending>1</Defending>
@@ -217,6 +228,7 @@
     </DefList>
   </Type>
   <Type name="Nether" r="55" g="0" b="91">
+    <Abil name="Appeased Spirit">0</Abil>
     <DefList>
       <Defending>1</Defending>
       <Defending>1</Defending>
@@ -238,6 +250,7 @@
     </DefList>
   </Type>
   <Type name="Poison" r="147" g="36" b="151">
+    <Abil name="Strict Dosage">0</Abil>
     <DefList>
       <Defending>1</Defending>
       <Defending>1</Defending>
@@ -259,6 +272,7 @@
     </DefList>
   </Type>
   <Type name="Fight" r="255" g="77" b="0">
+    <Abil name="Master's Defense">0</Abil>
     <DefList>
       <Defending>1</Defending>
       <Defending>1</Defending>
@@ -280,6 +294,7 @@
     </DefList>
   </Type>
   <Type name="Illu" r="255" g="102" b="255">
+    <Abil name="Unwavering Heart">0</Abil>
     <DefList>
       <Defending>0</Defending>
       <Defending>1</Defending>
@@ -301,6 +316,7 @@
     </DefList>
   </Type>
   <Type name="Sound" r="255" g="213" b="0">
+    <Abil name="Sound Absorb">0</Abil>
     <DefList>
       <Defending>1</Defending>
       <Defending>1</Defending>
@@ -322,6 +338,7 @@
     </DefList>
   </Type>
   <Type name="Warped" r="0" g="76" b="153">
+    <Abil name="In Sync">0</Abil>
     <DefList>
       <Defending>1</Defending>
       <Defending>1</Defending>
